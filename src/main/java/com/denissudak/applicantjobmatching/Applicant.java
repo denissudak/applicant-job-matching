@@ -26,4 +26,9 @@ public class Applicant {
     public static Applicant newApplicant(String name, String... requiredSkill) {
         return new Applicant(name, newHashSet(requiredSkill));
     }
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }
