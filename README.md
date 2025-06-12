@@ -1,6 +1,6 @@
 Supporting code for my article - Applying matching algorithms to real allocation
-problems, [Part 1](https://medium.com/@denissudak/applying-matching-algorithms-to-real-allocation-problems-419bd12f7449)
-and [Part 2](https://medium.com/@denissudak/applying-matching-algorithms-to-real-allocation-problems-part-2-8088ef69e827)
+problems, [Part 1](https://denissudak.substack.com/p/applying-matching-algorithms-to-real)
+and [Part 2](https://denissudak.substack.com/p/applying-matching-algorithms-to-real-8e7)
 
 Go to `ApplicantJobMatching` to run examples from the article.
 
