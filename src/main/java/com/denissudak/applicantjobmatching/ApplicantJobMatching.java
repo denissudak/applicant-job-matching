@@ -11,7 +11,7 @@ public class ApplicantJobMatching {
 
     public static void main(String[] args) {
         /*
-         * Below is related to Part 1: https://medium.com/@denissudak/applying-matching-algorithms-to-real-allocation-problems-419bd12f7449
+         * Below is related to Part 1: https://denissudak.substack.com/p/applying-matching-algorithms-to-real
          */
         Applicant a1 = newApplicant("applicant-1", "skill-1", "skill-2");
         Applicant a2 = newApplicant("applicant-2", "skill-1", "skill-2", "skill-3");
@@ -27,7 +27,7 @@ public class ApplicantJobMatching {
         roleAssignments.forEach((applicant, roleSkills) -> System.out.printf("%s : %s%n", applicant.getName(), roleSkills));
 
         /*
-         * Below is related to Part 2: https://medium.com/@denissudak/applying-matching-algorithms-to-real-allocation-problems-part-2-8088ef69e827
+         * Below is related to Part 2: https://denissudak.substack.com/p/applying-matching-algorithms-to-real-8e7
          */
         TeamRequirementsAnalyser teamRequirementsAnalyser = new TeamRequirementsAnalyser();
         Set<Set<String>> rolesInDemand = teamRequirementsAnalyser.getRolesInDemand(newHashSet(tr1, tr2, tr3), roleAssignments, Applicant::hasSkills);
