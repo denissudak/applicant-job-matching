@@ -8,5 +8,3 @@ Go to `ApplicantJobMatching` to run examples from the article.
 the [push-relabel maximum flow algorithm](https://github.com/denissudak/max-flow).
 It’s open source, in case you want to explore it further.
 
-I hope you find it useful. Enjoy!
-
